@@ -82,3 +82,89 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 19ms (Views: 16.8ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-06-13 13:12:45 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2610.1ms)
+Completed 200 OK in 2823ms (Views: 2662.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-13 13:13:59 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 35ms (Views: 32.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-13 13:15:13 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1338ms (Views: 1335.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-13 13:15:56 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1388ms (Views: 1386.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-13 13:16:05 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 24ms (Views: 21.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-13 13:17:42 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1382ms (Views: 1379.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-13 13:19:53 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1349ms (Views: 1346.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-13 13:20:22 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1417ms (Views: 1413.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-13 13:26:30 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 1417ms
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_shin with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/brendanjones/Documents/Code/rails-tutorials/ch-5/sample_app/app/views"
+):
+     6:     <%= stylesheet_link_tag    'application', media: 'all',
+     7:                                               'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:     <%= render 'layouts/shin' %>
+    10:   </head>
+    11:   <body>
+    12:     <%= render 'layouts/header' %>
+  
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___3530590048328316021_70316061065580'
+Started GET "/" for 127.0.0.1 at 2018-06-13 13:26:39 -0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 41ms (Views: 38.3ms)
+
+
